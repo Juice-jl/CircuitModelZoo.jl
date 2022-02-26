@@ -1,0 +1,8 @@
+[deps]
+CircuitModelZoo = "be429156-0856-4333-aa6d-b771e9de2f69"
+Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+CircuitModelZoo = "0.1"
+Jive = "0.2"

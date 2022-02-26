@@ -1,0 +1,7 @@
+name = "CircuitModelZoo"
+uuid = "be429156-0856-4333-aa6d-b771e9de2f69"
+authors = ["Pasha Khosravi <pashak@cs.ucla.edu>"]
+version = "0.1.0"
+
+[deps]
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
