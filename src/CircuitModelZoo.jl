@@ -2,9 +2,12 @@ module CircuitModelZoo
 
 using LazyArtifacts
 
-export zoo_clt_file, zoo_cnf_file, zoo_dnf_file, zoo_jlc_file, zoo_nnf_file, zoo_sdd_file, zoo_vtree_file, zoo_jpc_file, zoo_psdd_file, zoo_spn_file
+export zoo_file, zoo_clt_file, zoo_cnf_file, zoo_dnf_file, zoo_jlc_file, zoo_nnf_file, zoo_sdd_file, zoo_vtree_file, zoo_jpc_file, zoo_psdd_file, zoo_spn_file
 
 const ZOO_VERSION = "/Circuit-Model-Zoo-0.1.6"
+
+zoo_file(name, folder) =
+    artifact"circuit_model_zoo" * ZOO_VERSION * "/$folder/$name"
 
 zoo_clt_file(name) = 
     artifact"circuit_model_zoo" * ZOO_VERSION * "/clts/$name"
