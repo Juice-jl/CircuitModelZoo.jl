@@ -3,7 +3,7 @@ using Test
 
 @testset "API Tests" begin
 
-    @test isfile(zoo_clt_file("2.clt"))
+    @test isfile(zoo_file("clts", "2.clt"))
     @test isfile(zoo_cnf_file("8.cnf"))
     @test isfile(zoo_dnf_file("8.dnf"))
     @test isfile(zoo_sdd_file("random.sdd"))
